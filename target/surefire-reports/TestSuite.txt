@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.461 sec <<< FAILURE! - in TestSuite
+f(zxp.test.allure.ReportTest)  Time elapsed: 0.172 sec  <<< FAILURE!
+java.lang.AssertionError: expected [xpd] but found [xpdds]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at zxp.test.allure.ReportTest.f(ReportTest.java:13)
+
+test3(zxp.test.allure.AllureTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [2] but found [1]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at zxp.test.allure.AllureTest.test3(AllureTest.java:21)
+
